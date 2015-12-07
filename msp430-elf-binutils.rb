@@ -5,7 +5,7 @@ class Msp430ElfBinutils < Formula
 
   # No --default-names option as it interferes with Homebrew builds.
 
-  url "git://sourceware.org/git/binutils-gdb.git", :using => :git, :branch => "binutils-2_25-branch"
+  url "git://sourceware.org/git/binutils-gdb.git", :using => :git, :branch => "binutils-2_26-branch"
 
   fails_with :clang
   fails_with :llvm
