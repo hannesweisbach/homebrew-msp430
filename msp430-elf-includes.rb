@@ -3,7 +3,7 @@ require 'formula'
 class Msp430ElfIncludes < Formula
   homepage 'http://www.ti.com/tool/msp430-gcc-opensource'
   url 'http://software-dl.ti.com/msp430/msp430_public_sw/mcu/msp430/MSPGCC/latest/exports/msp430-gcc-support-files.zip'
-  sha1 '0fad3ca29236149034edcc75d9618c3aee8e653b'
+  sha256 '84c8571cc6eab96df04685d5bd5f7884a0617435826c79d4dd50b5723b1353d9'
 
   depends_on 'msp430-elf-gcc'
 
